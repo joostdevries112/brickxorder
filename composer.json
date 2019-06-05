@@ -1,0 +1,21 @@
+{
+    "name": "alius/brickx-order",
+    "description": "adds custom order fields to extension attributes",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Joost de Vries",
+            "email": "joost.devries@aliusenergy.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Alius\\BrickxOrder\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
